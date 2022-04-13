@@ -19,13 +19,133 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 
+  <script src="https://kit.fontawesome.com/a0b1abc3e3.js" crossorigin="anonymous"></script>
+
   <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
 
   <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+  
+  <header class="header">
+    <div class="header__wrapper">
+      <a href="index.html">
+        <img src="img/unpluggedlogo.png" alt="website logo" />
+      </a>
+      <nav class="nav">
+        <ul class="nav__menu">
+          <li class="nav__menu-list">
+            <a href="faq/index.html">Faq</a>
+          </li>
+          <li class="nav__menu-list">
+            <a href="about/index.html">About</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main__container">
+    <section class="hero">
+      <div class="hero__wrapper">
+        <h1 class="hero__title">Retreat from the desk, return refreshed.</h1>
+      </div>
+    </section>
+    <section class="cta">
+      <div class="cta__wrapper">
+        <div class="cta__content">
+          <h3>Want to join the next retreat?</h3>
+          <p>Find out when we are holding our next retreat  and how your company or team can sign up!</p>
+        </div>
+        <div class="cta__email">
+          <form>
+            <label for="email">Find out more</label>
+            <input type="text" id="email" placeholder="name@email.com">
+            
+            <a href="itinerary/unplugged-retreat-itinerary.png" download="unplugged-retreat-itinerary">
+              <button type="button">Download itinerary</button>
+            </a>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="amenities">
+      <h2>Have the work week you've always dreamed of - without the bad wifi.</h2>
+      <div class="amenities__wrapper">
+        <div class="amenity">
+          <img src="img/campground.png" alt="image icon of a camp ground"/>
+          <p>Located in a peaceful bungalow outside of Lake Geneva, Wisconsin</p>
+        </div>
+        <div class="amenity">
+          <img src="img/bed.png" alt="image icon of a bed" />
+          <p>12 private rooms with ensuite bathrooms, 2 group meeting rooms and, four break out rooms.</p>
+        </div>
+        <div class="amenity">
+          <img src="img/utensils.png" alt="image icons of dinner utensils" />
+          <p>Private chef team providing on demand meals - just like your team kitchen.</p>
+        </div>
+        <div class="amenity">
+          <img src="img/shoe-prints.png" alt="image icon of show prints" />
+          <p>5 outdoor obstacle courses, including private beach 1/2 a mile from bungalow.</p>
+        </div>
+        <div class="amenity">
+          <img src="img/smile.png" alt="image icon of a smiley face" />
+          <p>Retreat facilitator to manage your day to day activities so you all get a chance to reset.</p>
+        </div>
+        <div class="amenity">
+          <img src="img/wifi.png" alt="image icon of wifi" />
+          <p>Dedicated computer rooms for times that you must wifi.</p>
+        </div>
+      </div>
+    </section>
+    <section class="review">
+      <h2>Be a better team in 5 days, like this one.</h2>
+      <div class="review__wrapper">
+        <div class="review__team-pic">
+          <img src="img/omar-lopez-296944-unsplash.jpg" alt="team picture of a group of ladies smiling at a camp retreat" />
+        </div>
+        <div class="review__content">
+          <h3>LaCrue Bottling Co. October 2018</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab voluptate minima sint necessitatibus saepe voluptatibus dignissimos corporis non possimus aut, dicta adipisci reprehenderit nesciunt cupiditate eveniet eos nisi dolor itaque. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste repellat, quasi officiis commodi blanditiis esse recusandae praesentium atque incidunt quibusdam officia cumque. Laborum, iure! Aspernatur pariatur inventore perspiciatis. Atque, similique.</p>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer__wrapper">
+        <div class="footer__contact">
+          <h3>Contact</h3>
+          <p>
+            <a href="tel:555-555-5555">555-555-5555</a>
+          </p>
+          <p>
+            <a href="mailto:hello@unplugged.com">hello@unplugged.com</a>
+          </p>
+        </div>
+        <div class="footer__social">
+          <h3>Social</h3>
+          <ul class="social-links">
+            <li>
+              <a href="#">
+                <i class="fa fa-brands fa-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa fa-brands fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa fa-brands fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <p>Copyright 2019 | Unplugged</p>
+      </div>
+    </footer>
+  </main>
+
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
