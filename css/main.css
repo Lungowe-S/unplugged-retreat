@@ -87,6 +87,89 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+  /* ------ Base Styles ------ */
+
+  :root {
+    --offBlack: #202322;
+    --offGray: #e2e3ed;
+    --Green: #527158;
+    --formGray: #e1e2ea;
+    --darkGray: #b1b2b8;
+    --offGreen: #2a423a;
+    --socialGreen: #527158;
+    --grayish: #3a3a3a;
+  }
+
+  html {
+    font-size: 1.25rem;
+    font-family: "Open sans", sans-serif;
+    line-height: 1.4;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  ul li {
+    list-style-type: none;
+  }
+
+  /* ------ Header Styles ------ */
+  .header {
+    background-color: var(--offBlack);
+  }
+
+  .header__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 220px;
+    margin: auto;
+    padding-top: 0.8rem;
+  }
+
+  .logo {
+    width: 220px;
+    margin-bottom: 0.6rem;
+  }
+
+  .nav__border {
+    border-bottom: 1px solid var(--grayish);
+    width: 350px;
+    left: -65px;
+    position: relative;
+  }
+
+  .nav__menu {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 0.9rem 0 0.9rem 0;
+  }
+
+  .nav__menu-list:nth-child(2) {
+    padding-left: 3rem;
+  }
+
+  .nav__menu-list a {
+    color: var(--offGray);
+  }
+
+  /* ----- Hero Styles ----- */
+  .hero__title {
+    margin: 0;
+  }
+
+  /* .hero__wrapper {
+    background-image: url("../img/jake-melara-30679-unsplash.jpg");
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover;
+  } */
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
