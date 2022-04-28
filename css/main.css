@@ -117,6 +117,13 @@ textarea {
     list-style-type: none;
   }
 
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: "Poppins", sans-serif;
+  }
+
 /* ======== HOME PAGE STYLES ======== */
 
   /* ------ Header Styles ------ */
@@ -180,7 +187,7 @@ textarea {
     line-height: 1.3;
     padding-left: 1rem;
     padding-top: 2.75rem;
-    font-family: "Poppins", sans-serif;
+    /* font-family: "Poppins", sans-serif; */
   }
 
   /* ----- CTA Styles ----- */
@@ -210,7 +217,6 @@ textarea {
     font-size: 0.7rem;
   }
 
-  .cta__title,
   label,
   .button {
     font-family: "Poppins", sans-serif;
@@ -250,7 +256,7 @@ textarea {
 
   .amenities__title {
     margin: 0;
-    font-family: "Poppins", sans-serif;
+    /* font-family: "Poppins", sans-serif; */
     padding: 2.5rem 1rem 3.5rem 1rem;
     line-height: 1.2;
   }
@@ -287,7 +293,7 @@ textarea {
 
   .review__title {
     margin: 0;
-    font-family: "Poppins", sans-serif;
+    /* font-family: "Poppins", sans-serif; */
     padding: 2.6rem 1rem 1.3rem 1rem;
   }
   
@@ -309,9 +315,9 @@ textarea {
     padding: 0 1.1rem 0 1rem;
   }
 
-  .review__content-title {
+  /* .review__content-title {
     font-family: "Poppins", sans-serif;
-  }
+  } */
 
   .review__content p {
     font-size: 0.7rem;
@@ -339,7 +345,7 @@ textarea {
   }
 
   .footer__titles {
-    font-family: "Poppins", sans-serif;
+    /* font-family: "Poppins", sans-serif; */
     font-size: 0.9rem;
     margin-bottom: 1.01rem;
   }
@@ -409,7 +415,7 @@ textarea {
   .faq__title,
   .faq__question {
     margin: 0;
-    font-family: "Poppins", sans-serif;
+    /* font-family: "Poppins", sans-serif; */
   }
 
   .faq__title {
