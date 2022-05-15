@@ -202,7 +202,7 @@ textarea {
 
   .cta__wrapper {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     row-gap: 1.75rem;
     padding: 1.5rem 1rem 2.7rem 1rem;
     color: var(--offGray);
@@ -864,7 +864,11 @@ textarea {
 }
 
 @media only screen and (min-width: 1078px) {
-/* ===== Home Page Desktop Styles  ===== */
+  /* ===== Home Page Desktop Styles  ===== */
+  .cta__wrapper {
+      grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    }
+
   .review__wrapper {
     grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
   }
