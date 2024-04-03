@@ -836,7 +836,7 @@ textarea {
   }
 
   .footer__wrapper {
-    grid-template-columns: repeat(auto-fill, minmax(460px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
   }
 }
 
