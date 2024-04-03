@@ -859,7 +859,7 @@ textarea {
   .mission__content,
   .contact__details,
   .faq__content-wrapper {
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
   }
 
 }
